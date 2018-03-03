@@ -363,7 +363,7 @@ header .navbar .dropdown-menu a {
 }
 
 .home-feature {
-  margin-top: -120px;
+  margin-top: 3em;
   position: relative;
   z-index: 2;
 }
@@ -500,7 +500,7 @@ header .navbar .dropdown-menu a {
 }
 
 .section {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 
 .cta-link {
@@ -764,10 +764,10 @@ header .navbar .dropdown-menu a {
 .hero {
   z-index: 1000;
   position: absolute;
-  top: 20%;
+  top: 15%;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -775,11 +775,17 @@ header .navbar .dropdown-menu a {
 
 .hero h1 {
   color: white;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 15em;
 }
 
+.hero h1 span {
+  color: #007bff;
+}
+
 .hero p {
+  line-height: 1.25em;
   font-size: 2em;
 }
 
