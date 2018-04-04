@@ -1,5 +1,6 @@
 body {
-  background: #fff;
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-attachment: fixed;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -104,7 +105,8 @@ header .top-bar .social li a:hover {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: white !important;
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%) !important;
+  background-attachment: fixed;
 }
 
 @media (max-width: 1199px) {
@@ -546,14 +548,15 @@ header .navbar .dropdown-menu a {
 }
 
 .cover_1 .sub-heading {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   font-size: 22px;
+  font-weight: bolder;
 }
 
 .cover_1 .heading {
   font-size: 50px;
-  color: white;
-  font-weight: 300;
+  color: black;
+  font-weight: bolder;
 }
 
 .heading {
@@ -764,7 +767,7 @@ header .navbar .dropdown-menu a {
 .hero {
   z-index: 1000;
   position: absolute;
-  top: 15%;
+  top: 75%;
   width: 100%;
   text-align: center;
   color: white;
@@ -772,12 +775,11 @@ header .navbar .dropdown-menu a {
   justify-content: center;
   align-items: center;
 }
-
 .hero h1 {
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 15em;
+  font-size: 10em;
 }
 
 .hero h1 span {
@@ -806,33 +808,18 @@ html, body {
 .touch .video-container .poster {
     display: block !important;
 }
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
+.logo-container {
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-attachment: fixed;
 }
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-}
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-.video-container video.fillWidth {
-    width: 100%;
+.logo-container img {
+  position: absolute;
+  bottom: 06%;
+  left: 05%;
+  height: 100%;
+  width: 90%;
+  overflow: hidden;
+
 }
 .hero-text {
   z-index: 2;
@@ -848,3 +835,14 @@ html, body {
     position: fixed;
     width: 100%;
 }
+.section-bg-light{
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-attachment: fixed;
+}
+.answer {
+  color: black;
+}
+.lead {
+  color: black
+}
+
