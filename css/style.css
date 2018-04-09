@@ -377,7 +377,7 @@ header .navbar .dropdown-menu a {
   transition: .3s all ease;
   z-index: 2;
   top: 0;
-  border-bottom: 10px solid #5AC8D8;
+ 
 }
 
 @media (max-width: 767px) {
@@ -490,15 +490,15 @@ header .navbar .dropdown-menu a {
 }
 
 .home-feature .one-col {
-  background: #007bff;
+  background: #04c3f3;
 }
 
 .home-feature .two-col {
-  background: #006fe6;
+  background: #04b8e6;
 }
 
 .home-feature .three-col {
-  background: #0067d6;
+  background: #04aed8;
 }
 
 .section {
@@ -544,17 +544,17 @@ header .navbar .dropdown-menu a {
 .cover_1 {
   background-size: cover;
   background-position: center center;
-  padding: 7em 0;
+  padding: 2em 0;
 }
 
 .cover_1 .sub-heading {
   color: black;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
 .cover_1 .heading {
-  font-size: 50px;
+  font-size: 40px;
   color: black;
   font-weight: bolder;
 }
@@ -799,6 +799,7 @@ html, body {
     border-right: none;
     border-left: none;
     position: relative;
+    margin-bottom: 10px;
 }
 .no-video .video-container video,
 .touch .video-container video {
