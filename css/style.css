@@ -417,7 +417,7 @@ header .navbar .dropdown-menu a {
 }
 
 .home-feature .one-col p, .home-feature .two-col p, .home-feature .three-col p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.863);
   font-weight: 300;
 }
 
@@ -490,15 +490,15 @@ header .navbar .dropdown-menu a {
 }
 
 .home-feature .one-col {
-  background: #04c3f3;
+  background: #d69fd6;
 }
 
 .home-feature .two-col {
-  background: #04b8e6;
+  background: #d495d4;
 }
 
 .home-feature .three-col {
-  background: #04aed8;
+  background: #d38fd3;
 }
 
 .section {
@@ -801,18 +801,23 @@ html, body {
     position: relative;
     margin-bottom: 10px;
 }
+
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
 }
+
 .no-video .video-container .poster,
 .touch .video-container .poster {
     display: block !important;
 }
+
 .logo-container {
+    z-index: -1;
     background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
     background-attachment: fixed;
 }
+
 .logo-container img {
   position: absolute;
   bottom: 06%;
@@ -820,30 +825,119 @@ html, body {
   height: 100%;
   width: 90%;
   overflow: hidden;
-
 }
+
 .hero-text {
   z-index: 2;
   position: absolute;
 }
+
 .date {
   margin-bottom: 0px;
 }
+
 .sponsor {
     max-height: 100px;
 }
+
+.mar-top {
+  margin-top: 50px;
+}
+
 .sticky-top {
     position: fixed;
     width: 100%;
 }
+
 .section-bg-light{
   background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
   background-attachment: fixed;
 }
+
 .answer {
   color: black;
 }
+
 .lead {
   color: black
 }
 
+/* Collapsible Panel */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.faq-panel {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+.panel-list-content {
+  margin: 0 auto;
+}
+
+.panel-wrap {
+  padding: 20px 0;
+  border-bottom: 1px dotted rgb(53, 50, 50);
+}
+
+.panel-title {
+  font-size: 20px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  font-size: 16px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 2;
+  font-size: 20px;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
+/* End of Collapsible Panel */
