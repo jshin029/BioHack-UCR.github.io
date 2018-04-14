@@ -799,7 +799,7 @@ html, body {
     border-right: none;
     border-left: none;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -814,21 +814,14 @@ html, body {
     display: block !important;
 }
 
-.logo-container-center {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .logo-container {
     z-index: -1;
     background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
     background-attachment: fixed;
     
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     height: auto;
     width: auto;
