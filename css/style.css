@@ -775,6 +775,7 @@ header .navbar .dropdown-menu a {
   justify-content: center;
   align-items: center;
 }
+
 .hero h1 {
   color: black;
   text-transform: uppercase;
@@ -799,9 +800,13 @@ html, body {
     border-right: none;
     border-left: none;
     position: relative;
+    margin-top: auto;
     margin-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .no-video .video-container video,
@@ -813,7 +818,6 @@ html, body {
 .touch .video-container .poster {
     display: block !important;
 }
-
 
 .logo-container {
     z-index: -1;
@@ -828,8 +832,6 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
-
 
 .logo-container img {
   position: absolute;
