@@ -814,14 +814,22 @@ html, body {
     display: block !important;
 }
 
+.logo-container-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo-container {
     z-index: -1;
     background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
     background-attachment: fixed;
     
     margin: auto;
-    display: block;
-
+    display: flex;
     height: auto;
     width: auto;
     justify-content: center;
@@ -836,8 +844,8 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 
-  left: 23%;
-  bottom: 15%;
+  top: 45%;
+  transform: translateY(-50%);
 
   height: auto;
   max-height: 80%;
