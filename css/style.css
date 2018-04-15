@@ -977,6 +977,9 @@ html, body {
 
 
 .proj-title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 20px;
   width: 100%;
   text-align: center;
@@ -995,6 +998,9 @@ html, body {
 }
 
 .proj-desc {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -1012,6 +1018,9 @@ html, body {
 }
 
 .proj-auth {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 14px;
   font-style: italic;
   text-align: center;
