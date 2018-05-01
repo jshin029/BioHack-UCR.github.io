@@ -964,17 +964,12 @@ html, body {
 }
 /* End of Collapsible Panel */
 
-
-
 .space-sp {
   color: #333;
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
   opacity: 0;
 }
-
-
-
 
 .proj-title {
   justify-content: center;
@@ -1037,8 +1032,6 @@ html, body {
   -o-transition: .4s ease;
   transition: .4s ease;
 }
-
-
 
 .change-f {
   text-transform: uppercase;
