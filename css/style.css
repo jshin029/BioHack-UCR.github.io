@@ -966,6 +966,10 @@ html, body {
   text-decoration: underline;
 }
 
+.proj-sec h3 {
+  font-size: 12px;
+}
+
 .proj-title {
   font-size: 18px;
   color: black;
@@ -1205,7 +1209,7 @@ ul {
 }
 
 .view :hover {
-  color: rgba(188, 175, 204, 0.9);
+  color: rgb(229, 225, 233);
 }
 
 .view .mask,
@@ -1228,18 +1232,19 @@ ul {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Raleway, serif;
   padding: 3px;
   /*background: rgba(0, 0, 0, 0.8);*/
-  margin: 20px 0 0 0
+  margin: 15px 0 0 0
 }
 .view h3 {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 11px;
+  font-size: 12px;
   font-family: Raleway, serif;
+  margin: 0 0 12px 0
   /*background: rgba(0, 0, 0, 0.8);*/
 
 }
@@ -1247,7 +1252,7 @@ ul {
 .view p {
   font-family: Merriweather, serif;
   font-style: italic;
-  font-size: 10px;
+  font-size: 11px;
   position: relative;
   color: #fff;
   padding: 0px 10px 0px;
@@ -1343,13 +1348,13 @@ ul {
 }
 
 .jview :hover {
-  color: rgba(212, 226, 228, 0.904);
+  color: rgb(212, 226, 228);
 }
 
 .jview .jmask,
 .jview .jcontent {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -1366,10 +1371,10 @@ ul {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Raleway, serif;
   padding: 3px;
-  margin: 20px 0 0 0
+  margin: 18px 0 0 0
 }
 
 .jview h3 {
@@ -1378,13 +1383,14 @@ ul {
   position: relative;
   font-size: 11px;
   font-family: Raleway, serif;
+  margin: 0 0 12px 0
 
 }
 
 .jview p {
   font-family: Merriweather, serif;
   font-style: italic;
-  font-size: 10px;
+  font-size: 12px;
   position: relative;
   color: #fff;
   padding: 0px 10px 0px;
@@ -1408,8 +1414,8 @@ ul {
 
 .jview-first img {
   transition: all 0.2s linear;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
 }
 
 .jview-first .jmask {
@@ -1419,10 +1425,8 @@ ul {
 }
 
 .jview-first h2 {
-  transform: translateY(-100px);
   opacity: 0;
   font-family: Raleway, serif;
-  transition: all 0.2s ease-in-out;
 }
 
 .jview-first p {
@@ -1447,7 +1451,7 @@ ul {
 .jview-first:hover h2,
 .jview-first:hover p,
 .jview-first:hover a.jinfo {
-  opacity: 1;
+  opacity: 4;
   transform: translateY(0px);
 }
 
@@ -1461,6 +1465,141 @@ ul {
 
 /* judges end */
 
+/* workshops */
+.workshop {
+  width: 100%;
+}
+.bview {
+  height: 100%;
+  margin: 0 50px 10px 50px ;
+  float: left;
+  border: 10px solid #fff;
+  border-radius: 1em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+
+.bview :hover {
+  color: rgba(212, 226, 228, 0.904);
+}
+
+.bview .bmask,
+.bview .bcontent {
+  width: 260px;
+  height: 160px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.bview img {
+  display: block;
+  position: relative
+}
+
+.bview h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 12px;
+  font-family: Raleway, serif;
+  padding: 3px;
+  margin: 20px 0 0 0;
+}
+
+.bview h3 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 11px;
+  font-family: Raleway, serif;
+}
+
+.bview p {
+  font-family: Merriweather, serif;
+  font-style: italic;
+  font-size: 10px;
+  position: relative;
+  color: #fff;
+  padding: 0px 10px 0px;
+  text-align: center
+}
+
+.bview a.binfo {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  font-family: Raleway, serif;
+  font-size: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.719)
+}
+
+.bview a.binfo:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.719)
+}
+
+.bview-first img {
+  transition: all 0.2s linear;
+  width: 260px;
+  height: 160px;
+}
+
+.bview-first .bmask {
+  opacity: 0;
+  background-color: rgba(86, 190, 45, 0.44);
+  transition: all 0.4s ease-in-out;
+}
+
+.bview-first h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  font-family: Raleway, serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.bview-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.bview-first a.binfo {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bview-first:hover img {
+  transform: scale(1.1);
+}
+
+.bview-first:hover .bmask {
+  opacity: 1;
+}
+
+.bview-first:hover h2,
+.bview-first:hover p,
+.bview-first:hover a.binfo {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.bview-first:hover p {
+  transition-delay: 0.1s;
+}
+
+.bview-first:hover a.binfo {
+  transition-delay: 0.2s;
+}
+/*workshop ends*/
+
 .agenda-txt {
   font-size: 24px;
   color: #f8f9fa;
@@ -1470,7 +1609,7 @@ ul {
 
 .agenda-img img {
   display: block;
-  width: 50%;
+  width: 65%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1479,7 +1618,8 @@ ul {
   
 }
 @media (max-width: 600px){
-  .agenda-txt{
+  .agenda-txt .agenda-img{
+    width: 100%;
     font-size: 17px;
   }
 }
