@@ -967,17 +967,17 @@ html, body {
 }
 
 .proj-sec h3 {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .proj-title {
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   font-weight: bold;
 }
 
 .proj-desc {
-  font-size: 16px;
+  font-size: 12px;
   color: black;
 }
 
@@ -1150,7 +1150,7 @@ ul {
   background-size: 100% 100%;
 }
 .bubble h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
@@ -1160,7 +1160,7 @@ ul {
   text-decoration: underline;
 }
 .bubble p {
-  font-size: 16px;
+  font-size: 15px;
   color: rgb(32, 31, 31);
   font-style: italic;
 }
