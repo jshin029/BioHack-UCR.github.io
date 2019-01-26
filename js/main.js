@@ -13,6 +13,14 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
+  var owl = $("#owl-demo");
+  owl.owlCarousel({
+      //navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      loop: true
+  });
 });
 
 function scaleVideoContainer() {
@@ -135,3 +143,4 @@ function scaleBannerVideoSize(element){
     });
 
 })(jQuery);
+
