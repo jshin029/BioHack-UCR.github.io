@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/slideshow.css">
 
   <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
@@ -101,12 +102,40 @@
     <div class="container">
     <div class="align-items-center">
     <div class="logo-container">
-      <img src="img/BioHackonlylogo[3900].png">
+      <img src="img/BioHack 2019 Logo.png">
+    </div>
     </div>
     </div>
     </div>
   </div>
+  <div class="slideshow-container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/Picture_1.PNG" style="width:100%">
+    <div class="text">Caption One</div>
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/pic_19.PNG" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/swe.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+ 
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br><!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
   <div class="space-sp">  </div>
 
   <section class="container home-feature mb-5">
@@ -560,6 +589,8 @@
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/slideshow.js"></script>
+
 </body>
 
 </html>
