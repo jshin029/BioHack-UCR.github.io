@@ -4,9 +4,10 @@
   padding: 5px;
 }
 
-/* Clear floats after image containers */
-.slider::after {
-  content: "";
-  clear: both;
-  display: table;
+.slider{
+  width:400px;
+  padding: 20px;
+  margin: 20px auto;
+   .parent-slide{padding:15px;}
+  img{display: block;margin:auto;}
 }
