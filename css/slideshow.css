@@ -7,7 +7,7 @@
 .slider{
   width:400px;
   padding: 20px;
-  margin: 20px auto;
+/*   margin: 20px auto; */
    .parent-slide{padding:15px;}
-  img{display: block;margin:auto;}
+/*   img{display: block;margin:auto;} */
 }
