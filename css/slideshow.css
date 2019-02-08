@@ -1,9 +1,12 @@
-.slider{
-  width:400px;
-  margin:20px auto;
-/*   text-align: center; */
-  padding:20px;
-  color:white;
-  .parent-slide{padding:15px;}
-  img{display: block;margin:auto;}
+.slide {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.slider::after {
+  content: "";
+  clear: both;
+  display: table;
 }
