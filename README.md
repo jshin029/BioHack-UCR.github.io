@@ -1,8 +1,8 @@
-# BioHack 2018 Website
+# BioHack 2019 Website
 
 > The official BioHack at UCR website
 
-This is the landing page for BioHack 2018. The website is hosted at [www.biohackucr.com](http://biohackucr.com)
+This is the landing page for BioHack 2019. The website is hosted at [www.biohackucr.com](http://biohackucr.com)
 
 ## Updating
 
